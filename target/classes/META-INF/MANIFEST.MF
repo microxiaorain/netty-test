@@ -1,0 +1,73 @@
+Manifest-Version: 1.0
+Class-Path: lib/netty-all-4.0.33.Final.jar lib/netconf-client-0.3.2-Li
+ thium-SR2.jar lib/netconf-netty-util-0.3.2-Lithium-SR2.jar lib/netcon
+ f-mapping-api-0.3.2-Lithium-SR2.jar lib/netty-handler-4.0.26.Final.ja
+ r lib/sshd-core-0.14.0.jar lib/nagasena-0000.0002.0053.0.jar lib/naga
+ sena-rta-0000.0002.0053.0.jar lib/netconf-util-0.3.2-Lithium-SR2.jar 
+ lib/yang-model-api-0.7.2-Lithium-SR2.jar lib/object-cache-api-0.7.2-L
+ ithium-SR2.jar lib/yang-data-api-0.7.2-Lithium-SR2.jar lib/protocol-f
+ ramework-0.6.2-Lithium-SR2.jar lib/jsr305-2.0.3.jar lib/netty-buffer-
+ 4.0.26.Final.jar lib/netty-codec-4.0.26.Final.jar lib/netty-common-4.
+ 0.26.Final.jar lib/netty-transport-4.0.26.Final.jar lib/slf4j-api-1.7
+ .7.jar lib/netconf-api-0.3.2-Lithium-SR2.jar lib/ietf-netconf-monitor
+ ing-0.3.2-Lithium-SR2.jar lib/ietf-netconf-monitoring-extension-0.3.2
+ -Lithium-SR2.jar lib/config-api-0.3.2-Lithium-SR2.jar lib/yang-bindin
+ g-0.7.2-Lithium-SR2.jar lib/yang-common-0.7.2-Lithium-SR2.jar lib/org
+ .osgi.core-5.0.0.jar lib/ietf-inet-types-2010.09.24.7.2-Lithium-SR2.j
+ ar lib/ietf-yang-types-2010.09.24.7.2-Lithium-SR2.jar lib/netconf-tes
+ ttool-1.1.0-20151214.114407-4-executable.jar lib/argparse4j-0.4.3.jar
+  lib/logback-classic-1.1.3.jar lib/logback-core-1.1.3.jar lib/async-h
+ ttp-client-1.9.24.jar lib/netty-3.10.3.Final.jar lib/bcpkix-jdk15on-1
+ .52.jar lib/bcprov-jdk15on-1.52.jar lib/netconf-netty-util-1.1.0-2015
+ 1214.114318-4.jar lib/netconf-util-1.1.0-20151214.114418-4.jar lib/ne
+ tconf-auth-1.1.0-20151214.114222-4.jar lib/config-netconf-connector-1
+ .1.0-20151214.114128-4.jar lib/config-manager-facade-xml-0.5.0-201512
+ 05.023832-2.jar lib/netconf-notifications-api-1.1.0-20151214.114334-4
+ .jar lib/yang-jmx-generator-0.5.0-20151205.024219-2.jar lib/mdsal-bin
+ ding-generator-impl-0.9.0-20151205.004238-1.jar lib/javassist-3.20.0-
+ GA.jar lib/mdsal-binding-generator-api-0.9.0-20151205.004235-1.jar li
+ b/mdsal-binding-generator-util-0.9.0-20151205.004242-1.jar lib/org.ec
+ lipse.xtend.lib-2.8.4.jar lib/org.eclipse.xtend.lib.macro-2.8.4.jar l
+ ib/guava-14.0.1.jar lib/org.eclipse.xtext.xbase.lib-2.8.4.jar lib/sal
+ -netconf-connector-1.4.0-20151214.114424-4.jar lib/netconf-config-dis
+ patcher-1.1.0-20151214.114236-4.jar lib/sal-common-util-1.4.0-2015120
+ 5.024108-2.jar lib/sal-connector-api-1.4.0-20151205.024113-2.jar lib/
+ ietf-netconf-notifications-1.1.0-20151214.114155-4.jar lib/netty-thre
+ adgroup-config-0.5.0-20151205.023957-2.jar lib/sal-binding-api-1.4.0-
+ 20151205.024035-2.jar lib/sal-binding-config-1.4.0-20151205.024044-2.
+ jar lib/sal-binding-broker-impl-1.4.0-20151205.024040-2.jar lib/sal-b
+ inding-util-1.4.0-20151205.024048-2.jar lib/mdsal-binding-dom-codec-0
+ .9.0-20151205.004231-1.jar lib/threadpool-config-api-0.5.0-20151205.0
+ 24212-2.jar lib/model-inventory-1.4.0-20151205.024229-2.jar lib/yang-
+ ext-2013.09.07.7-20151205.004435-1.jar lib/ietf-topology-2013.10.21.7
+ -20151205.004402-1.jar lib/sal-broker-impl-1.4.0-20151205.024052-2.ja
+ r lib/disruptor-3.3.0.jar lib/sal-common-impl-1.4.0-20151205.024105-2
+ .jar lib/yang-data-impl-0.9.0-20151205.000816-2.jar lib/yang-data-uti
+ l-0.9.0-20151205.000828-2.jar lib/antlr4-runtime-4.5.1.jar lib/yang-m
+ odel-util-0.9.0-20151205.000855-2.jar lib/yang-parser-impl-0.9.0-2015
+ 1205.000903-2.jar lib/yang-parser-api-0.9.0-20151205.000858-2.jar lib
+ /logback-config-0.5.0-20151205.023927-2.jar lib/commons-lang3-3.4.jar
+  lib/config-util-0.5.0-20151205.023855-2.jar lib/netconf-api-1.1.0-20
+ 151214.114215-4.jar lib/ietf-netconf-monitoring-1.1.0-20151214.114147
+ -4.jar lib/ietf-netconf-monitoring-extension-1.1.0-20151214.114151-4.
+ jar lib/netconf-client-1.1.0-20151214.114230-4.jar lib/ietf-yang-type
+ s-2010.09.24.7-20151205.004421-1.jar lib/yang-binding-0.9.0-20151205.
+ 004317-1.jar lib/ietf-inet-types-2010.09.24.7-20151205.004336-1.jar l
+ ib/netconf-impl-1.1.0-20151214.114245-4.jar lib/netconf-notifications
+ -impl-1.1.0-20151214.114343-4.jar lib/netconf-mapping-api-1.1.0-20151
+ 214.114306-4.jar lib/netconf-monitoring-1.1.0-20151214.114313-4.jar l
+ ib/netconf-ssh-1.1.0-20151214.114356-4.jar lib/netty-config-api-0.5.0
+ -20151205.023950-2.jar lib/sal-inmemory-datastore-1.4.0-20151205.0241
+ 44-2.jar lib/sal-common-api-1.4.0-20151205.024101-2.jar lib/sal-core-
+ api-1.4.0-20151205.024117-2.jar lib/sal-core-spi-1.4.0-20151205.02412
+ 1-2.jar lib/concepts-0.9.0-20151205.000729-2.jar lib/util-0.9.0-20151
+ 205.000750-2.jar lib/java-concurrent-hash-trie-map-0.2.23.jar lib/sal
+ -dom-config-1.4.0-20151205.024133-2.jar lib/mdsal-netconf-connector-1
+ .1.0-20151214.114159-4.jar lib/netconf-tcp-1.1.0-20151214.114402-4.ja
+ r lib/object-cache-noop-0.9.0-20151205.000746-2.jar lib/ietf-netconf-
+ 1.1.0-20151214.114142-4.jar
+Build-Jdk: 1.7.0_80
+Built-By: microxiaorain
+Created-By: Maven Integration for Eclipse
+Main-Class: org.xiaorain.test.usc_agent.Client
+
