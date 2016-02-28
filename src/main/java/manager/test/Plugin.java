@@ -116,6 +116,7 @@ class Plugin2AgentHandler extends SimpleChannelInboundHandler<Frame> {
         Connection cnxn = new Connection(ctx.channel());
         ctx.channel().attr(CNXN_KEY).set(cnxn);                
         Plugin2AgentCnxnMgnr.cnxnMap.put("default", cnxn);
+        System.out.println("usc channel " + ctx.channel() + " is create.");
     }
     
     @Override
